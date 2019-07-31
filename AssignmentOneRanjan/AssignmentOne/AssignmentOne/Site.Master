@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="AssignmentOne.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+
+    <title>Burlington UFO Center</title>
+
+    <asp:ContentPlaceHolder ID="CPHHead" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link type="text/css" rel="stylesheet" href="~/Content/carousel.css" runat="server" />
+    <link type="text/css" rel="stylesheet" href="~/Content/bootstrap.min.css" runat="server" />
+</head>
+<body>
+    <form id="FormMain" runat="server">
+        <div>
+            <div class="navbar-wrapper">
+                <div class="container">
+                    <nav class="navbar navbar-inverse navbar-static-top">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">Burlington UFO Center</a>
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="/Index.aspx">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="/Ranjan/Contact.aspx">Contact</a></li>
+                                    <li><a href="#store">Store</a></li>
+                                    <li><a href="#old">Old</a></li>
+                                    <li><a href="#new">Improvements</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            
+            <asp:ContentPlaceHolder ID="CPHBody" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <script src="/Scripts/jquery-1.9.1.js"></script>
+    <script src="/Scripts/bootstrap.js"></script>
+    <script src="../Scripts/ricardo.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+﻿.logo {
+    width: 90%;
+    text-align: right;
+}
+
+.p-size-16 {
+    font-size: 16px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.Top {
+    text-align: center;
+}
+
+.Middle {
+    color: #A4A4A4;
+    margin: 10px auto;
+    left: 10px;
+    background: rgba(0,0,0,0.2);
+    padding: 20px 30px;
+    border-radius: 5px;
+    width: 50%;
+    min-width: 150px;
+}
+
+.Bottom {
+    text-align: left;
+    color: white;
+}
+
+.label-inline {
+    display: inline-block;
+}
+
+.icons {
+    float: right;
+}
+
+.Texty {
+    float: right;
+    color: #FF6A00;
+}
+
+time {
+}
+
+fieldset {
+    margin-top: 10px;
+    left: 1px;
+}
+
+select {
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07);
+    transition: background 0.4s linear;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+    select:hover {
+        background-color: white;
+    }
+
+h1 {
+    color: #A4A4A4;
+    font-size: 32px;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    text-align: left;
+}
+
+h2 {
+    font-size: 25px;
+    color: #A4A4A4;
+    left: 1px;
+}
+
+h3 {
+    font-size: 12px;
+    color: #A4A4A4;
+    left: 1px;
+}
+
+.p-line-10 {
+    margin-left: 0%;
+    text-align: left;
+    margin-right: 0%;
+    height: 10%;
+}
+
+input {
+    background-color: rgba(0,0,0,0.1);
+    transition: background 0.4s linear;
+    display: block;
+    margin: 0;
+    width: 30%;
+    font-family: sans-serif;
+    font-size: 18px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07);
+    border-radius: 5px;
+    min-width: 100px;
+}
+
+    input:hover {
+        background-color: white;
+    }
+
+textarea {
+    background-color: rgba(0,0,0,0.1);
+    transition: background 0.4s linear;
+    display: block;
+    margin: 0;
+    width: 30%;
+    font-family: sans-serif;
+    font-size: 18px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07);
+    border-radius: 5px;
+    min-width: 100px;
+}
+
+    textarea:hover {
+        background-color: white;
+    }
+
+
+.btn {
+    background: rgba(0,0,0,0.3);
+    border: 0;
+    width: 45%;
+    height: 25%;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.4s linear;
+    min-width: 100px;
+}
+
+    .btn:hover {
+        color: white;
+    }
+
+.btn1 {
+    padding:3px;
+    font-size: 18px;
+    background: rgba(0,0,0,0.3);
+    border: 0;
+    width: 100%;    
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.4s linear;
+    min-width: 100px;
+}
+
+    .btn1:hover {
+        color: black;
+        background: #FF6A00;
+    }
+
+.Edits {
+    transition: background 0.4s linear;
+    display: block;
+    margin: 20px;
+    width: 95%;
+    font-family: sans-serif;
+    font-size: 18px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07);
+    border-radius: 10px;
+    border: 0;
+}
+
+    .Edits:hover {
+        background-color: rgba(0,0,0,0.4);
+    }
+
+.expando-heading {
+    cursor: pointer;
+}

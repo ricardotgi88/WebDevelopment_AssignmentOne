@@ -1,0 +1,134 @@
+﻿.container-fluid {
+    background-size: 100%;
+}
+
+.logo {
+    width: 90%;
+    text-align: right;
+}
+
+.p-line-10 {
+    line-height: 10px;
+}
+
+.p-size-16 {
+    font-size: 16px;
+}
+
+.Top {
+    text-align: center;
+}
+
+.Middle {
+    color: #A4A4A4;
+    margin: 10px auto;
+    left: 10px;
+    background: rgba(0,0,0,0.2);
+    padding: 20px 30px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.Bottom {
+    text-align: left;
+    color: white;
+}
+
+.label-inline {
+    display: inline-block;
+}
+
+.switch-wrapper {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+
+fieldset {
+    margin-top: 10px;
+    left: 1px;
+}
+
+
+
+
+h1 {
+    /*font-family: Palatino, 'Palatino Linotype', serif;*/
+    color: #A4A4A4;
+    font-size: 32px;
+    left: 1px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #A4A4A4;
+    left: 1px;
+}
+
+h3 {
+    font-size: 12px;
+    color: #A4A4A4;
+    left: 1px;
+}
+
+input {
+    display: block;
+    margin: 0;
+    width: 30%;
+    font-family: sans-serif;
+    font-size: 18px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07);
+    border-radius: 5px;
+}
+
+textarea {
+    background-color: rgba(0,0,0,0.1);
+    transition: background 0.4s linear;
+    display: block;
+    margin: 0;
+    width: 30%;
+    font-family: sans-serif;
+    font-size: 18px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07);
+    border-radius: 5px;
+}
+
+    textarea:hover {
+        background-color: white;
+    }
+
+input[type="submit"] {
+    background: #6E6E6E;
+    border: 0;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.4s linear;
+}
+
+    input[type="submit"]:hover {
+        background: #FFCD00;
+    }
+
+input[type="reset"]:hover {
+    background: #FFCD00;
+}
+
+input[type="reset"] {
+    background: #6E6E6E;
+    border: 0;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.4s linear;
+}
+
+.Links {
+    color: yellow;
+    transition: background 0.4s linear;
+}
